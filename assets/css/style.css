@@ -104,6 +104,8 @@ body.light_theme {
 
 
 
+
+
 /*-----------------------------------*\
  * #RESET
 \*-----------------------------------*/
@@ -223,6 +225,14 @@ body.active { overflow: hidden; }
   background: var(--raw-seinna);
   border-color: var(--raw-seinna);
   color: var(--black);
+}
+
+.skills-text {
+  font-weight: bold; /* Ensure the text is bold */
+  color: var(--raw-seinna); /* Use the --raw-sienna color variable */
+  font-size: 18px; /* Increased font size for emphasis */
+  font-family: 'Arial', sans-serif; /* Web-safe font */
+  /* Additional styling as needed */
 }
 
 .btn-secondary:is(:hover, :focus) { --raw-seinna: hsl(24, 74%, 64%); }
@@ -1335,4 +1345,7 @@ textarea.input-field {
 
   .about-banner { max-width: 450px; }
 
+
+
 }
+
